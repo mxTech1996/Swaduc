@@ -1,5 +1,5 @@
-export const pageName = 'AKWC';
-export const primaryColor = '#000000';
+export const pageName = 'Sociedad Swaduc';
+export const primaryColor = '#F9B262FF';
 export const backgroundColor = '#FFFFFF';
 export const makeClearBackground = (color) => {
   return {

@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <main
       style={{
-        backgroundColor: '#DEF8EBFF',
+        backgroundColor: '#E7D5BEFF',
       }}
     >
       <Navbar />
@@ -67,7 +67,7 @@ export default function Home() {
           <Typography.Title level={3} className='font-medium mb-10 text-center'>
             Our Services
           </Typography.Title>
-          <Features
+          <FeaturesV2
             gridColumns={2}
             variant='card'
             features={dataSite.services}
