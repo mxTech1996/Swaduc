@@ -73,11 +73,11 @@ export default function Home() {
             features={dataSite.services}
           />
         </div>
-        <div id='courses'>
+        <div id='products'>
           {dataSite.products.length > 1 && (
             <ProductSection
               withCategoryFilter={false}
-              title='All Courses'
+              title='All Products'
               gridColumns={4}
               variant='grid'
               productItemVariant='vertical'
