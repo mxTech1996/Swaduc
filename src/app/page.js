@@ -78,13 +78,13 @@ export default function Home() {
             <ProductSection
               withCategoryFilter={false}
               title='All Products'
-              gridColumns={4}
+              gridColumns={3}
               variant='grid'
               productItemVariant='vertical'
               onClickImage={(id) => {
                 router.push(`/product/${id}`);
               }}
-              productVersion='2'
+              productVersion='1'
               carouselOptions={{
                 arrowColor: 'black',
                 fade: true,
